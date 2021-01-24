@@ -7,18 +7,18 @@ Tracked files can be unmodified, modified, or staged.
 Adding the files to be tracked by git 
 # git add <filename>
 
-Check the status of the files
-# git status # -s or --short for simplified output. 
+Check the status of the files( -s or --short for simplified output )
+# git status 
 
 The tracked and modified files should be added again to staged and commited.
 
-To commit the changes done 
-# git commit -m "<Summary of the changes>" # -a option to commit all changed files
+To commit the changes done( -a option to commit all changed files )
+# git commit -m "<Summary of the changes>" 
 
 Add the files or file patterns to be ignored in .gitignore file
 
-To see the changes which are not yet staged
-# git diff # --staged to compare with the staged changes to the last commit
+To see the changes which are not yet staged( --staged to compare with the staged changes to the last commit )
+# git diff 
 
-If deleted a file in working directory, is should be deleted in git and then commit
-# git rm <filename> # --cached to stop the file to be tracked
+If deleted a file in working directory, is should be deleted in git and then commit( --cached to stop the file to be tracked )
+# git rm <filename>
